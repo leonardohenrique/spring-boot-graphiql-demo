@@ -1,4 +1,4 @@
-# Spring Boot Graphiql Demo
+# Spring Boot GraphQL Demo
 A simple demo of Spring Boot 2 with GraphQL
 
 ### Requirements 
@@ -9,8 +9,8 @@ A simple demo of Spring Boot 2 with GraphQL
 ### How to run
 
 ```
-git clone https://github.com/leonardohenrique/spring-boot-graphiql-demo.git
-cd spring-boot-graphiql-demo
+git clone https://github.com/leonardohenrique/spring-boot-graphql-demo.git
+cd spring-boot-graphql-demo
 mvn spring-boot:run
 ```
 

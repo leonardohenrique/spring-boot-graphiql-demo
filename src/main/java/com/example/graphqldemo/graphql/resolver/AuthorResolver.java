@@ -1,4 +1,4 @@
-package com.example.graphiqldemo.graphql.resolver;
+package com.example.graphqldemo.graphql.resolver;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
-import com.example.graphiqldemo.domain.Author;
-import com.example.graphiqldemo.domain.Genre;
-import com.example.graphiqldemo.repository.GenreRepository;
+import com.example.graphqldemo.domain.Author;
+import com.example.graphqldemo.domain.Genre;
+import com.example.graphqldemo.repository.GenreRepository;
 
 @Component
 public class AuthorResolver implements GraphQLResolver<Author> {

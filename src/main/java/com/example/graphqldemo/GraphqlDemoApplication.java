@@ -1,12 +1,12 @@
-package com.example.graphiqldemo;
+package com.example.graphqldemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GraphiqlDemoApplication {
+public class GraphqlDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GraphiqlDemoApplication.class, args);
+		SpringApplication.run(GraphqlDemoApplication.class, args);
 	}
 }

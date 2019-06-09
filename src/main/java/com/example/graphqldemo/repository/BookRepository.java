@@ -1,10 +1,10 @@
-package com.example.graphiqldemo.repository;
+package com.example.graphqldemo.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.graphiqldemo.domain.Book;
+import com.example.graphqldemo.domain.Book;
 
 public interface BookRepository extends CrudRepository<Book, Long> {
 

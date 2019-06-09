@@ -1,10 +1,10 @@
-package com.example.graphiqldemo.repository;
+package com.example.graphqldemo.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.graphiqldemo.domain.Genre;
+import com.example.graphqldemo.domain.Genre;
 
 public interface GenreRepository extends CrudRepository<Genre, Long> {
 

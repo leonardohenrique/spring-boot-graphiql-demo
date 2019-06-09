@@ -1,4 +1,4 @@
-package com.example.graphiqldemo.graphql.input;
+package com.example.graphqldemo.graphql.input;
 
 import java.util.List;
 

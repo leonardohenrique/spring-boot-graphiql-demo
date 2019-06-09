@@ -1,4 +1,4 @@
-package com.example.graphiqldemo.graphql;
+package com.example.graphqldemo.graphql;
 
 import java.util.List;
 
@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
-import com.example.graphiqldemo.domain.Author;
-import com.example.graphiqldemo.domain.Book;
-import com.example.graphiqldemo.domain.Genre;
-import com.example.graphiqldemo.graphql.input.BookInput;
-import com.example.graphiqldemo.repository.AuthorRepository;
-import com.example.graphiqldemo.repository.BookRepository;
-import com.example.graphiqldemo.repository.GenreRepository;
+import com.example.graphqldemo.domain.Author;
+import com.example.graphqldemo.domain.Book;
+import com.example.graphqldemo.domain.Genre;
+import com.example.graphqldemo.graphql.input.BookInput;
+import com.example.graphqldemo.repository.AuthorRepository;
+import com.example.graphqldemo.repository.BookRepository;
+import com.example.graphqldemo.repository.GenreRepository;
 
 @Component
 public class Mutation implements GraphQLMutationResolver {
