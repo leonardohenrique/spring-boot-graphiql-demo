@@ -18,6 +18,7 @@ type Genre {
 
 type Query {
     books: [Book]!
+    book(id: ID!): Book
     booksByGenreId(genreId: ID!): [Book]
 	authors: [Author]!	  
 }

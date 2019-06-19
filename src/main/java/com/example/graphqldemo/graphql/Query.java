@@ -35,5 +35,9 @@ public class Query implements GraphQLQueryResolver {
 	public List<Book> getBooksByGenreId(Long genreId) {
 		return bookRepository.findAllByGenresId(genreId);
 	}
+	
+	public Book book(Long id) {
+		return bookRepository.findById(id).get();
+	}
 
 }
