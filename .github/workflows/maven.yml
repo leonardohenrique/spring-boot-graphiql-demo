@@ -14,4 +14,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn deploy -Dregistry=https://maven.pkg.github.com/jstrainer -Dtoken=${{ secrets.GITHUB_TOKEN }} --file pom.xml
