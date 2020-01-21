@@ -80,6 +80,14 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub leonardohenrique Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/leonardohenrique/spring-boot-graphql-demo</url>
+	   </repository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
